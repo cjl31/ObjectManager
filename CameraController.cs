@@ -135,7 +135,6 @@
         
         private void HandleCameraZoom()
         {
-            
             float scroll = Input.GetAxis("Mouse ScrollWheel");
             if (scroll != 0)
             {
