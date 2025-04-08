@@ -12,15 +12,15 @@
 
         // Camera settings
         [SerializeField] private float distance = 10.0f;
-        [SerializeField] private float mouseSensitivity = 5.0f;
-        [SerializeField] private float scrollSensitivity = 4.0f;
-        [SerializeField] private float translateSensitivity = 0.1f;
+        [SerializeField] private float mouseSensitivity = 150.0f;
+        [SerializeField] private float scrollSensitivity = 3.0f;
+        [SerializeField] private float translateSensitivity = 10.0f;
         [SerializeField] private float minY = -20f;
         [SerializeField] private float maxY = 80f;
-        [SerializeField] private float minDistance = 0.5f;
-        [SerializeField] private float maxDistance = 8f;
-        [SerializeField] private float smoothMoveSpeed = 0.2f;
-        [SerializeField] private float smoothRotateSpeed = 0.2f;
+        [SerializeField] private float minDistance = 2.0f;
+        [SerializeField] private float maxDistance = 20.0f;
+        [SerializeField] private float smoothMoveSpeed = 5.0f;
+        [SerializeField] private float smoothRotateSpeed = 5.0f;
         
         // State variables
         private Vector3 lookAtPosition = Vector3.zero;
